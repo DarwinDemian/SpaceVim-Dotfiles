@@ -5,12 +5,23 @@ function! myspacevim#before() abort
   nnoremap <leader>j :wincmd j<cr>
   nnoremap <leader>k :wincmd k<cr>
   nnoremap <leader>l :wincmd l<cr>
+ 
   nnoremap <leader>u :undotreeshow<cr>
+ 
   nnoremap <leader>pv :wincmd v<bar> :vertical resize 45<cr>
   nnoremap <silent> <leader>- :vertical resize -5<cr>
   nnoremap <silent> <leader>= :vertical resize +5<cr>
+ 
   nnoremap <leader>/ :commentary<cr>
-  nnoremap <leader>ia gg=g<cr>
+  nnoremap <leader>ia gg=g
+  
+  nnoremap <leader>p "+p
+  vnoremap <leader>p "+p
+  nnoremap <leader>P "+P
+  vnoremap <leader>P "+P
+  nnoremap <leader>y "+y
+  vnoremap <leader>y "+y
+  vnoremap <leader>Y "+y$
 
 endfunction
 
