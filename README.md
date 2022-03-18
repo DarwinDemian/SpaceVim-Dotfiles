@@ -1,2 +1,2 @@
 # SpaceVim-Dotfiles
-Customized configuration files for Spacevim 
+Customized configuration files for Spacevim based on ThePrimeagen
