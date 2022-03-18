@@ -73,15 +73,19 @@
   # Firenvim: vim inside your browser
   repo = "https://github.com/glacambre/firenvim"
   merged = false
+
   # Typescript-vim
   repo = "https://github.com/leafgarland/typescript-vim"
   merged = false
+
   # Undotree
   repo = "https://github.com/mbbill/undotree"
   merged = false
+
   # Nerdcommenter
   repo = "https://github.com/preservim/nerdcommenter"
   merged = false
+
   # Vim-commentary
   repo = "https://github.com/tpope/vim-commentary"
   merged = false

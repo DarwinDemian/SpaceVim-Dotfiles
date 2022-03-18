@@ -9,7 +9,8 @@ function! myspacevim#before() abort
   noremap <leader>pv :wincmd v<bar> :vertical resize 45<CR>
   noremap <silent> <leader>- :vertical resize -5<CR>
   noremap <silent> <leader>= :vertical resize +5<CR>
-  noremap <leader>/ :Commentary<cr>
+  noremap <leader>/ :Commentary<CR>
+  noremap <leader>ia gg=G<CR>
 
 endfunction
 
@@ -19,8 +20,12 @@ function! myspacevim#after() abort
   set nowrap!
   set autoindent
   set smartindent
-  set smartcase
   set noswapfile
+  set nohlsearch
+  set undodir=~/.vim/undodir
+  set undofile
+  set scrolloff=8
+  set signcolumn=yes
   
   set colorcolumn=80
   highlight ColorColumn ctermbg=0 guibg=lightgrey
